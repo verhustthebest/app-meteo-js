@@ -1,0 +1,65 @@
+body {
+    /* background-color */
+    background-image: url('../image/image_nuage.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* 2. La carte blanche (le container) */
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(40, 19, 19, 0.2);
+    text-align: center;
+    width: 350px;
+    /* Légèrement plus large pour tes longs titres */
+}
+
+/* 3. Le champ de saisie */
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+/* 4. Le bouton */
+button {
+    padding: 10px 20px;
+    background-color: #0083b0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #005f7a;
+    transform: scale(1.05);
+    /* Petit effet de zoom au survol */
+}
+
+/* 5. La zone de texte pour la météo */
+#weatherResult {
+    margin-top: 25px;
+}
+
+#temp {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0083b0;
+    margin: 10px 0;
+}
+
+#cityName {
+    color: #333;
+    text-transform: capitalize;
+}

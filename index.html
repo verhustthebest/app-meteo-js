@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Applicat° Météo</title>
 </head>
 
 <body>
-    <h1>Météo Géolocalisation du Kongo Central</h1>
-    <h1>Météo Express</h1>
-    <input type="text" id="cityInput" placeholder="Enter the City">
-    <button id="searchBtn">Chercher</button>
+    <div class="container">
+        <h1>Météo Géolocalisation du Kongo Central</h1>
+        <h1>Météo Express</h1>
+        <input type="text" id="cityInput" placeholder="Enter the City">
+        <button id="searchBtn">Chercher</button>
 
+        <div id="weatherResult">
+            <h2 id="cityName"></h2>
+            <p id="temp"></p>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 
